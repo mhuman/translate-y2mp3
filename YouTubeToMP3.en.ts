@@ -12,11 +12,6 @@
 <context>
     <name>AddUrlPanel</name>
     <message>
-        <location filename="addurlpanel.ui" line="17"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="addurlpanel.ui" line="32"/>
         <source>Url:</source>
         <translation type="unfinished"></translation>
