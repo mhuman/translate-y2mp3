@@ -1,0 +1,585 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"X-Virgin-Header: remove this line if you change anything in the header.\n"
+"X-Language: zh_CN\n"
+"X-Source-Language: C\n"
+
+#. ts-context AboutDialog
+#: aboutdialog.ui:17
+#, fuzzy
+msgid "About"
+msgstr ""
+
+#. ts-context AddUrlPanel
+#: addurlpanel.ui:17
+#, fuzzy
+msgid "Form"
+msgstr ""
+
+#. ts-context AddUrlPanel
+#: addurlpanel.ui:32
+#, fuzzy
+msgid "Url:"
+msgstr ""
+
+#. ts-context AddUrlPanel
+#: addurlpanel.ui:45
+#, fuzzy
+msgid "Go"
+msgstr ""
+
+#. ts-context Downloader
+#: downloader.cpp:193
+#, fuzzy
+msgid "Can't add to iTunes playlist"
+msgstr ""
+
+#. ts-context Downloader
+#: downloader.cpp:200
+#, fuzzy
+msgid "Download process crashed"
+msgstr ""
+
+#. ts-context Downloader
+#: downloader.cpp:249
+#, fuzzy
+msgid "Can't determinate output extension"
+msgstr ""
+
+#. ts-context Downloader
+#: downloader.cpp:254
+#, fuzzy
+msgid "TypeCheck : process crashed"
+msgstr ""
+
+#. ts-context MainModel
+#: mainmodel.cpp:151
+#, fuzzy
+msgid "Can't find compatible format form priority list."
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:91
+#, fuzzy
+msgid "Help"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:101
+#, fuzzy
+msgid "Edit"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:113
+#, fuzzy
+msgid "File"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:180
+#, fuzzy
+msgid "Add url"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:198
+#, fuzzy
+msgid "Paste url"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:207
+#, fuzzy
+msgid "Settings"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:212
+#, fuzzy
+msgid "Remove completed"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:220
+#, fuzzy
+msgid "Clear"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:228
+#, fuzzy
+msgid "Start all"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:236
+#, fuzzy
+msgid "Stop all"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:254
+#, fuzzy
+msgid "Facebook: Like!"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:269
+#, fuzzy
+msgid "Open home website"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:274
+#, fuzzy
+msgid "Preferences..."
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:282
+#, fuzzy
+msgid "Auto add from clipboard"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:290 mainwindow.ui:293
+#, fuzzy
+msgid "Automatically download"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:298
+#, fuzzy
+msgid "Quit"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:303
+#, fuzzy
+msgid "Check for update"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:308
+#, fuzzy
+msgid "About..."
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:313
+#, fuzzy
+msgid "About Qt..."
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.ui:316
+#, fuzzy
+msgid "About Qt"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:251
+#, fuzzy
+msgid "Download update"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:262
+#, fuzzy
+msgid "New version is available"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:263
+#, fuzzy
+msgid "Do you wan't to <b>download</b> new version now?"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:266
+#, fuzzy
+msgid "You can download it later in <i>Preferences...</i>&nbsp;dialog."
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:276
+#, fuzzy
+msgid "Exit and install update"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:284
+#, fuzzy
+msgid "Update is downloaded and ready to install"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:285
+#, fuzzy
+msgid "Do you wan't to <b>exit</b> program and <b>install</b> update now?"
+msgstr ""
+
+#. ts-context MainWindow
+#: mainwindow.cpp:288
+#, fuzzy
+msgid "You can install update later in <i>Preferences...</i>&nbsp;dialog."
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:14
+#, fuzzy
+msgid "Preferences"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:24
+#, fuzzy
+msgid "General"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:33
+#, fuzzy
+msgid "Automation"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:40
+#, fuzzy
+msgid "Auto add url from &clipboard"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:47
+#, fuzzy
+msgid "Start &download automatically"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:54
+#, fuzzy
+msgid "Update"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:69
+#, fuzzy
+msgid "Version %v"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:82
+#, fuzzy
+msgid "Check &now"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:91
+#, fuzzy
+msgid ""
+"Version %v\n"
+"Checked ago (%time)\n"
+"Available %v\n"
+"Download size"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:101
+#, fuzzy
+msgid "Check for update"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:108
+#, fuzzy
+msgid "Every time on startup"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:115
+#, fuzzy
+msgid "Manual check only"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:123 settingsdialog.cpp:284
+#, fuzzy
+msgid "Download"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:132
+#, fuzzy
+msgid "Preferred format"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:139
+#, fuzzy
+msgid "&Largest"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:146
+#, fuzzy
+msgid "Use format &priority list"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:162
+#, fuzzy
+msgid "P&riority list"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:172
+#, fuzzy
+msgid "&Disabled formats"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:243
+#, fuzzy
+msgid "Down"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:256
+#, fuzzy
+msgid "Up"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:267
+#, fuzzy
+msgid "Output"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:276
+#, fuzzy
+msgid "Output &folder"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:291
+#, fuzzy
+msgid "Choose..."
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:300
+#, fuzzy
+msgid "Format"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:373
+#, fuzzy
+msgid "&Original"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:386 settingsdialog.ui:393
+#, fuzzy
+msgid "Kbps"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:409
+#, fuzzy
+msgid "Add to iTunes playlist"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.ui:418
+#, fuzzy
+msgid "Playlist:"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:127
+#, fuzzy
+msgid "Select output folder"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:248 settingsdialog.cpp:254
+#, fuzzy
+msgid "Version %1"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:249
+#, fuzzy
+msgid "Check now"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:252
+#, fuzzy
+msgid "You have the latest version"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:253
+#, fuzzy
+msgid "Check again"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:264
+#, fuzzy
+msgid "Checked at %1"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:266
+#, fuzzy
+msgid "Checked %n days ago"
+msgid_plural "Checked %n days ago"
+msgstr[0] ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:268
+#, fuzzy
+msgid "Checked %n hours ago"
+msgid_plural "Checked %n hours ago"
+msgstr[0] ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:270
+#, fuzzy
+msgid "Checked %n minutes ago"
+msgid_plural "Checked %n minutes ago"
+msgstr[0] ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:272
+#, fuzzy
+msgid "Checked %n seconds ago"
+msgid_plural "Checked %n seconds ago"
+msgstr[0] ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:279
+#, fuzzy
+msgid "Checking..."
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:280 settingsdialog.cpp:294
+#, fuzzy
+msgid "Cancel"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:283
+#, fuzzy
+msgid "Update available"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:285
+#, fuzzy
+msgid ""
+"You have version %1\n"
+"Available version %2"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:287
+#, fuzzy
+msgid ""
+"\n"
+"Download size %1"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:289
+#, fuzzy
+msgid ""
+"\n"
+"Download size calculating..."
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:290
+#, fuzzy
+msgid ""
+"\n"
+"Changes:\n"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:293
+#, fuzzy
+msgid "Downloading update..."
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:296
+#, fuzzy
+msgid "%1 of %2 (%3%)"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:299
+#, fuzzy
+msgid "Ready to install"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:300
+#, fuzzy
+msgid "Install now"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:303
+#, fuzzy
+msgid "Check agan"
+msgstr ""
+
+#. ts-context SettingsDialog
+#: settingsdialog.cpp:304
+#, fuzzy
+msgid "Error"
+msgstr ""
+
+#. ts-context UpdateChecker
+#: updatechecker.cpp:103
+#, fuzzy
+msgid "Can't install update"
+msgstr ""
+
+#. ts-context UpdateChecker
+#: updatechecker.cpp:247
+#, fuzzy
+msgid "Failed to parse version information data."
+msgstr ""
+
+#. ts-context YouTubeParser
+#: youtubeparser.cpp:115 youtubeparser.cpp:121 youtubeparser.cpp:197
+#, fuzzy
+msgid "Loading: "
+msgstr ""
+
+#. ts-context YouTubeParser
+#: youtubeparser.cpp:126 youtubeparser.cpp:142 youtubeparser.cpp:244
+#, fuzzy
+msgid "Error: "
+msgstr ""
+
+#. ts-context YouTubeParser
+#: youtubeparser.cpp:126
+#, fuzzy
+msgid "incorrect youtube url"
+msgstr ""
