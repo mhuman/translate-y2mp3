@@ -49,7 +49,8 @@
     <name>MainModel</name>
     <message>
         <location filename="mainmodel.cpp" line="151"/>
-        <source>Can&apos;t find compatible format form priority list.</source>
+        <source>Can&apos;t find compatible format from priority list.</source>
+        <oldsource>Can&apos;t find compatible format form priority list.</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
