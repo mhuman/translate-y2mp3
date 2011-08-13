@@ -83,7 +83,7 @@
     </message>
     <message>
         <location filename="../engine/downloader.cpp" line="339"/>
-        <source>Can&apos;t determinate output extension</source>
+        <source>Can&apos;t determine output extension</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -205,42 +205,42 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="270"/>
+        <location filename="../interface/mainwindowbase.cpp" line="283"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="281"/>
+        <location filename="../interface/mainwindowbase.cpp" line="294"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="282"/>
-        <source>Do you wan&apos;t to &lt;b&gt;download&lt;/b&gt; new version now?</source>
+        <location filename="../interface/mainwindowbase.cpp" line="295"/>
+        <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="285"/>
+        <location filename="../interface/mainwindowbase.cpp" line="317"/>
+        <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="298"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="295"/>
+        <location filename="../interface/mainwindowbase.cpp" line="308"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="303"/>
+        <location filename="../interface/mainwindowbase.cpp" line="316"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="304"/>
-        <source>Do you wan&apos;t to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.cpp" line="307"/>
+        <location filename="../interface/mainwindowbase.cpp" line="320"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -249,7 +249,7 @@
     <name>SettingsDialogBase</name>
     <message>
         <location filename="../interface/settingsdialogbase.cpp" line="18"/>
-        <source>Prefernces</source>
+        <source>Preferences</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -369,6 +369,7 @@ Download size</source>
     </message>
     <message>
         <location filename="../interface/settingsgeneralpage.cpp" line="63"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="113"/>
         <source>Check again</source>
         <translation type="unfinished"></translation>
     </message>
@@ -476,11 +477,6 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="113"/>
-        <source>Check agan</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../interface/settingsgeneralpage.cpp" line="114"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
@@ -494,38 +490,38 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="20"/>
+        <location filename="settingsoutputpage.ui" line="23"/>
         <source>Output &amp;folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="35"/>
+        <location filename="settingsoutputpage.ui" line="45"/>
         <source>Choose...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="44"/>
+        <location filename="settingsoutputpage.ui" line="54"/>
         <source>Format</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="110"/>
+        <location filename="settingsoutputpage.ui" line="120"/>
         <source>&amp;Original</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="123"/>
-        <location filename="settingsoutputpage.ui" line="130"/>
+        <location filename="settingsoutputpage.ui" line="133"/>
+        <location filename="settingsoutputpage.ui" line="140"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="153"/>
+        <location filename="settingsoutputpage.ui" line="163"/>
         <source>Add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="162"/>
+        <location filename="settingsoutputpage.ui" line="172"/>
         <source>Playlist:</source>
         <translation type="unfinished"></translation>
     </message>
