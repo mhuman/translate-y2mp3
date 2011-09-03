@@ -4,8 +4,13 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../interface/aboutdialog.ui" line="17"/>
+        <location filename="../interface/aboutdialog.ui" line="35"/>
         <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/aboutdialog.cpp" line="10"/>
+        <source>Version</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30,22 +35,22 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="89"/>
+        <location filename="../interface/applicationbase.cpp" line="129"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="91"/>
+        <location filename="../interface/applicationbase.cpp" line="131"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="93"/>
+        <location filename="../interface/applicationbase.cpp" line="133"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="123"/>
+        <location filename="../interface/applicationbase.cpp" line="163"/>
         <source>Added %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -53,7 +58,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="125"/>
+        <location filename="../interface/applicationbase.cpp" line="165"/>
         <source>Started %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -61,7 +66,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="127"/>
+        <location filename="../interface/applicationbase.cpp" line="167"/>
         <source>Completed %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -72,24 +77,46 @@
 <context>
     <name>Downloader</name>
     <message>
-        <location filename="../engine/downloader.cpp" line="284"/>
+        <location filename="../engine/downloader.cpp" line="290"/>
         <source>Can&apos;t add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../engine/downloader.cpp" line="292"/>
+        <location filename="../engine/downloader.cpp" line="298"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../engine/downloader.cpp" line="339"/>
+        <location filename="../engine/downloader.cpp" line="345"/>
         <source>Can&apos;t determine output extension</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../engine/downloader.cpp" line="344"/>
+        <location filename="../engine/downloader.cpp" line="350"/>
         <source>TypeCheck : process crashed</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExitWidget</name>
+    <message>
+        <location filename="../interface/exitwidget.ui" line="17"/>
+        <source>Quit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/exitwidget.ui" line="65"/>
+        <source>Do you want to cancel them and quit?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../interface/exitwidget.cpp" line="38"/>
+        <source>%n videos are currently in progress.</source>
+        <comment>Exit confirmation : running count</comment>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -164,83 +191,83 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="256"/>
+        <location filename="../interface/mainwindowbase.ui" line="259"/>
         <source>Auto add from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="264"/>
         <location filename="../interface/mainwindowbase.ui" line="267"/>
+        <location filename="../interface/mainwindowbase.ui" line="270"/>
         <source>Automatically download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="272"/>
+        <location filename="../interface/mainwindowbase.ui" line="275"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="277"/>
+        <location filename="../interface/mainwindowbase.ui" line="283"/>
         <source>Check for update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="282"/>
+        <location filename="../interface/mainwindowbase.ui" line="288"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="287"/>
+        <location filename="../interface/mainwindowbase.ui" line="296"/>
         <source>About Qt...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="290"/>
+        <location filename="../interface/mainwindowbase.ui" line="299"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="133"/>
+        <location filename="../interface/mainwindowbase.cpp" line="151"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="283"/>
+        <location filename="../interface/mainwindowbase.cpp" line="314"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="294"/>
+        <location filename="../interface/mainwindowbase.cpp" line="325"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="295"/>
+        <location filename="../interface/mainwindowbase.cpp" line="326"/>
         <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="317"/>
+        <location filename="../interface/mainwindowbase.cpp" line="348"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="298"/>
+        <location filename="../interface/mainwindowbase.cpp" line="329"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="308"/>
+        <location filename="../interface/mainwindowbase.cpp" line="339"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="316"/>
+        <location filename="../interface/mainwindowbase.cpp" line="347"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="320"/>
+        <location filename="../interface/mainwindowbase.cpp" line="351"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -516,7 +543,7 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="163"/>
+        <location filename="settingsoutputpage.ui" line="197"/>
         <source>Add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -526,7 +553,7 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.cpp" line="48"/>
+        <location filename="settingsoutputpage.cpp" line="49"/>
         <source>Select output folder</source>
         <translation type="unfinished"></translation>
     </message>
