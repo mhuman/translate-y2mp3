@@ -35,22 +35,22 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="129"/>
+        <location filename="../interface/applicationbase.cpp" line="131"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="131"/>
+        <location filename="../interface/applicationbase.cpp" line="133"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="133"/>
+        <location filename="../interface/applicationbase.cpp" line="135"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="163"/>
+        <location filename="../interface/applicationbase.cpp" line="165"/>
         <source>Added %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -58,7 +58,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="165"/>
+        <location filename="../interface/applicationbase.cpp" line="167"/>
         <source>Started %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -66,7 +66,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="167"/>
+        <location filename="../interface/applicationbase.cpp" line="169"/>
         <source>Completed %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -227,47 +227,47 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="151"/>
+        <location filename="../interface/mainwindowbase.cpp" line="152"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="314"/>
+        <location filename="../interface/mainwindowbase.cpp" line="321"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="325"/>
+        <location filename="../interface/mainwindowbase.cpp" line="332"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="326"/>
+        <location filename="../interface/mainwindowbase.cpp" line="333"/>
         <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="348"/>
+        <location filename="../interface/mainwindowbase.cpp" line="355"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="329"/>
+        <location filename="../interface/mainwindowbase.cpp" line="336"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="339"/>
+        <location filename="../interface/mainwindowbase.cpp" line="346"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="347"/>
+        <location filename="../interface/mainwindowbase.cpp" line="354"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="351"/>
+        <location filename="../interface/mainwindowbase.cpp" line="358"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -540,6 +540,11 @@ Changes:
         <location filename="settingsoutputpage.ui" line="133"/>
         <location filename="settingsoutputpage.ui" line="140"/>
         <source>Kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="settingsoutputpage.ui" line="163"/>
+        <source>Add to iTunes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
