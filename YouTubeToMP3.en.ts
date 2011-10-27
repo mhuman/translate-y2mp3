@@ -279,7 +279,7 @@
     </message>
     <message>
         <location filename="../interface/mainwindowbase.ui" line="313"/>
-        <source>Turn onoff speed limit mode</source>
+        <source>Turn on/off speed limit mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
