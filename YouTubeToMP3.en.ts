@@ -187,18 +187,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="189"/>
-        <source>Alt+Del, Alt+Backspace</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../interface/mainwindowbase.ui" line="194"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.ui" line="197"/>
-        <source>Ctrl+Del, Ctrl+Backspace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -207,18 +197,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="205"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../interface/mainwindowbase.ui" line="210"/>
         <source>Stop all</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.ui" line="213"/>
-        <source>Ctrl+Alt+S</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
