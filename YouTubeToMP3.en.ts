@@ -647,7 +647,7 @@ Changes:
     <name>StreamSource</name>
     <message>
         <location filename="../plugins/streamsource.cpp" line="433"/>
-        <source>Restore connection limit reached.</source>
+        <source>Restore connection limit is reached.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
