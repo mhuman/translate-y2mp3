@@ -324,6 +324,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../interface/settingsdownloadpage.ui" line="49"/>
+        <source>Global bandwidth limit:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../interface/settingsdownloadpage.ui" line="159"/>
         <source>&amp;Largest</source>
         <translation type="unfinished"></translation>
@@ -351,11 +356,6 @@
     <message>
         <location filename="../interface/settingsdownloadpage.ui" line="20"/>
         <source>Simultaneous downloads:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="49"/>
-        <source>Global bandwith limit:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
