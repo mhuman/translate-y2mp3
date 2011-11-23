@@ -35,22 +35,22 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="116"/>
+        <location filename="../interface/applicationbase.cpp" line="126"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="118"/>
+        <location filename="../interface/applicationbase.cpp" line="128"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="120"/>
+        <location filename="../interface/applicationbase.cpp" line="130"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="147"/>
+        <location filename="../interface/applicationbase.cpp" line="157"/>
         <source>Added %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -58,7 +58,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="149"/>
+        <location filename="../interface/applicationbase.cpp" line="159"/>
         <source>Started %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -66,7 +66,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="151"/>
+        <location filename="../interface/applicationbase.cpp" line="161"/>
         <source>Completed %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -77,17 +77,17 @@
 <context>
     <name>Downloader</name>
     <message>
-        <location filename="../plugins/downloader.cpp" line="176"/>
+        <location filename="../plugins/downloader.cpp" line="298"/>
         <source>Can&apos;t add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="184"/>
+        <location filename="../plugins/downloader.cpp" line="188"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="50"/>
+        <location filename="../plugins/downloader.cpp" line="53"/>
         <source>Can&apos;t determine output extension</source>
         <translation type="unfinished"></translation>
     </message>
@@ -117,7 +117,13 @@
 <context>
     <name>FFMpegWrapper</name>
     <message>
-        <location filename="../plugins/ffmpegwrapper.cpp" line="228"/>
+        <location filename="../plugins/ffmpegwrapper.cpp" line="254"/>
+        <source>Duration of downloaded file is less (%1 instead of %2)
+Looks like connection has been dropped. Recommend to re-download.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/ffmpegwrapper.cpp" line="259"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -125,22 +131,22 @@
 <context>
     <name>ItemActionTracker</name>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="74"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="72"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="75"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="73"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="76"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="74"/>
         <source>Stop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="77"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="75"/>
         <source>Locate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -148,7 +154,7 @@
 <context>
     <name>MainModel</name>
     <message>
-        <location filename="mainmodel.cpp" line="17"/>
+        <location filename="mainmodel.cpp" line="18"/>
         <source>Can&apos;t find compatible format from priority list.</source>
         <oldsource>Can&apos;t find compatible format form priority list.</oldsource>
         <translation type="unfinished"></translation>
@@ -187,8 +193,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../interface/mainwindowbase.ui" line="189"/>
+        <source>Ctrl+Alt+Backspace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../interface/mainwindowbase.ui" line="194"/>
         <source>Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.ui" line="197"/>
+        <source>Ctrl+Shift+Backspace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -197,121 +213,135 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="210"/>
+        <location filename="../interface/mainwindowbase.ui" line="207"/>
         <source>Stop all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="228"/>
+        <location filename="../interface/mainwindowbase.ui" line="222"/>
         <source>Facebook: Like!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="243"/>
+        <location filename="../interface/mainwindowbase.ui" line="237"/>
         <source>Open home website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="248"/>
+        <location filename="../interface/mainwindowbase.ui" line="242"/>
         <source>Preferences...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="259"/>
+        <location filename="../interface/mainwindowbase.ui" line="253"/>
         <source>Auto add from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="267"/>
-        <location filename="../interface/mainwindowbase.ui" line="270"/>
+        <location filename="../interface/mainwindowbase.ui" line="261"/>
+        <location filename="../interface/mainwindowbase.ui" line="264"/>
         <source>Automatically download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="275"/>
+        <location filename="../interface/mainwindowbase.ui" line="269"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="283"/>
+        <location filename="../interface/mainwindowbase.ui" line="277"/>
         <source>Check for update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="288"/>
+        <location filename="../interface/mainwindowbase.ui" line="282"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="296"/>
+        <location filename="../interface/mainwindowbase.ui" line="290"/>
         <source>About Qt...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="299"/>
+        <location filename="../interface/mainwindowbase.ui" line="293"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="310"/>
+        <location filename="../interface/mainwindowbase.ui" line="304"/>
         <source>Speed limit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="313"/>
+        <location filename="../interface/mainwindowbase.ui" line="307"/>
         <source>Turn on/off speed limit mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="166"/>
+        <location filename="../interface/mainwindowbase.cpp" line="171"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="340"/>
+        <location filename="../interface/mainwindowbase.cpp" line="355"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="351"/>
+        <location filename="../interface/mainwindowbase.cpp" line="366"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="352"/>
+        <location filename="../interface/mainwindowbase.cpp" line="367"/>
         <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="374"/>
+        <location filename="../interface/mainwindowbase.cpp" line="389"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="355"/>
+        <location filename="../interface/mainwindowbase.cpp" line="370"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="365"/>
+        <location filename="../interface/mainwindowbase.cpp" line="380"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="373"/>
+        <location filename="../interface/mainwindowbase.cpp" line="388"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="377"/>
+        <location filename="../interface/mainwindowbase.cpp" line="392"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>RedirectPlugin</name>
+    <message>
+        <location filename="../plugins/redirectplugin.cpp" line="51"/>
+        <location filename="../plugins/redirectplugin.cpp" line="54"/>
+        <source>Error: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/redirectplugin.cpp" line="51"/>
+        <source>url not supported</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsDialogBase</name>
     <message>
-        <location filename="../interface/settingsdialogbase.cpp" line="18"/>
+        <location filename="../interface/settingsdialogbase.cpp" line="20"/>
         <source>Preferences</source>
         <translation type="unfinished"></translation>
     </message>
@@ -324,68 +354,58 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="49"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="55"/>
         <source>Global bandwidth limit:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="159"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="165"/>
         <source>&amp;Largest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="188"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="194"/>
         <source>P&amp;riority list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="198"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="204"/>
         <source>&amp;Disabled formats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="282"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="288"/>
         <source>Down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="269"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="275"/>
         <source>Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="20"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="26"/>
         <source>Simultaneous downloads:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="58"/>
-        <source>Turn on global limit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="68"/>
-        <location filename="../interface/settingsdownloadpage.ui" line="118"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="74"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="124"/>
         <source> KB/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="102"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="108"/>
         <source>Speed limit mode:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="111"/>
-        <source>Turn on speed limit mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="152"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="158"/>
         <source>Preferred format:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="169"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="175"/>
         <source>Use format &amp;priority list</source>
         <translation type="unfinished"></translation>
     </message>
@@ -398,37 +418,37 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="20"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="26"/>
         <source>Automation:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="27"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="33"/>
         <source>Auto add url from &amp;clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="34"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="40"/>
         <source>Start &amp;download automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="41"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="47"/>
         <source>Update:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="88"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="94"/>
         <source>Check for update:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="66"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="72"/>
         <source>Check &amp;now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="75"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="81"/>
         <source>Version %v
 Checked ago (%time)
 Available %v
@@ -436,12 +456,12 @@ Download size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="95"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="101"/>
         <source>Every time on startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="102"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="108"/>
         <source>Manual check only</source>
         <translation type="unfinished"></translation>
     </message>
@@ -584,61 +604,61 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="23"/>
+        <location filename="settingsoutputpage.ui" line="29"/>
         <source>Output &amp;folder:</source>
         <oldsource>Output &amp;folder</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="45"/>
+        <location filename="settingsoutputpage.ui" line="51"/>
         <source>Choose...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="54"/>
+        <location filename="settingsoutputpage.ui" line="60"/>
         <source>Format:</source>
         <oldsource>Format</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="120"/>
+        <location filename="settingsoutputpage.ui" line="167"/>
         <source>&amp;Original</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="133"/>
-        <location filename="settingsoutputpage.ui" line="140"/>
+        <location filename="settingsoutputpage.ui" line="180"/>
+        <location filename="settingsoutputpage.ui" line="187"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="163"/>
+        <location filename="settingsoutputpage.ui" line="216"/>
         <source>Add to iTunes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="197"/>
+        <location filename="settingsoutputpage.ui" line="250"/>
         <source>Add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="204"/>
+        <location filename="settingsoutputpage.ui" line="257"/>
         <source>Artwork:</source>
         <oldsource>Artwork</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="211"/>
+        <location filename="settingsoutputpage.ui" line="264"/>
         <source>Attach artwork</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="172"/>
+        <location filename="settingsoutputpage.ui" line="225"/>
         <source>Playlist:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.cpp" line="50"/>
+        <location filename="settingsoutputpage.cpp" line="54"/>
         <source>Select output folder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -646,7 +666,7 @@ Changes:
 <context>
     <name>StreamSource</name>
     <message>
-        <location filename="../plugins/streamsource.cpp" line="433"/>
+        <location filename="../plugins/streamsource.cpp" line="356"/>
         <source>Restore connection limit is reached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -659,7 +679,7 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../updater/updatechecker.cpp" line="267"/>
+        <location filename="../updater/updatechecker.cpp" line="268"/>
         <source>Failed to parse version information data.</source>
         <translation type="unfinished"></translation>
     </message>
