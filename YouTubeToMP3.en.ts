@@ -15,6 +15,19 @@
     </message>
 </context>
 <context>
+    <name>AddMultipleUrlsDialog</name>
+    <message>
+        <location filename="../interface/addmultipleurlsdialog.ui" line="14"/>
+        <source>Add url&apos;s list...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/addmultipleurlsdialog.ui" line="20"/>
+        <source>Edit list of url&apos;s here</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AddUrlPanel</name>
     <message>
         <location filename="../interface/addurlpanel.ui" line="32"/>
@@ -35,22 +48,22 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="126"/>
+        <location filename="../interface/applicationbase.cpp" line="135"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="128"/>
+        <location filename="../interface/applicationbase.cpp" line="137"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="130"/>
+        <location filename="../interface/applicationbase.cpp" line="139"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="157"/>
+        <location filename="../interface/applicationbase.cpp" line="166"/>
         <source>Added %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -58,7 +71,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="159"/>
+        <location filename="../interface/applicationbase.cpp" line="168"/>
         <source>Started %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -66,7 +79,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="161"/>
+        <location filename="../interface/applicationbase.cpp" line="170"/>
         <source>Completed %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -77,18 +90,24 @@
 <context>
     <name>Downloader</name>
     <message>
-        <location filename="../plugins/downloader.cpp" line="298"/>
+        <location filename="../plugins/downloader.cpp" line="355"/>
         <source>Can&apos;t add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="188"/>
+        <location filename="../plugins/downloader.cpp" line="231"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="53"/>
+        <location filename="../plugins/downloader.cpp" line="55"/>
         <source>Can&apos;t determine output extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/downloader.cpp" line="224"/>
+        <source>Duration of downloaded file is less (%1 instead of %2)
+Looks like connection has been dropped. Recommend to re-download.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -117,13 +136,7 @@
 <context>
     <name>FFMpegWrapper</name>
     <message>
-        <location filename="../plugins/ffmpegwrapper.cpp" line="254"/>
-        <source>Duration of downloaded file is less (%1 instead of %2)
-Looks like connection has been dropped. Recommend to re-download.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../plugins/ffmpegwrapper.cpp" line="259"/>
+        <location filename="../plugins/ffmpegwrapper.cpp" line="262"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -163,163 +176,158 @@ Looks like connection has been dropped. Recommend to re-download.</source>
 <context>
     <name>MainWindowBase</name>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="92"/>
+        <location filename="../interface/mainwindowbase.ui" line="96"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="102"/>
+        <location filename="../interface/mainwindowbase.ui" line="106"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="114"/>
+        <location filename="../interface/mainwindowbase.ui" line="118"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="172"/>
+        <location filename="../interface/mainwindowbase.ui" line="184"/>
         <source>Paste url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="181"/>
+        <location filename="../interface/mainwindowbase.ui" line="193"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="186"/>
+        <location filename="../interface/mainwindowbase.ui" line="202"/>
         <source>Remove completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="189"/>
-        <source>Ctrl+Alt+Backspace</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.ui" line="194"/>
+        <location filename="../interface/mainwindowbase.ui" line="210"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="197"/>
-        <source>Ctrl+Shift+Backspace</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.ui" line="202"/>
+        <location filename="../interface/mainwindowbase.ui" line="222"/>
         <source>Start all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="207"/>
+        <location filename="../interface/mainwindowbase.ui" line="231"/>
         <source>Stop all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="222"/>
+        <location filename="../interface/mainwindowbase.ui" line="246"/>
         <source>Facebook: Like!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="237"/>
+        <location filename="../interface/mainwindowbase.ui" line="261"/>
         <source>Open home website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="242"/>
+        <location filename="../interface/mainwindowbase.ui" line="266"/>
         <source>Preferences...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="253"/>
+        <location filename="../interface/mainwindowbase.ui" line="277"/>
         <source>Auto add from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="261"/>
-        <location filename="../interface/mainwindowbase.ui" line="264"/>
+        <location filename="../interface/mainwindowbase.ui" line="285"/>
+        <location filename="../interface/mainwindowbase.ui" line="288"/>
         <source>Automatically download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="269"/>
+        <location filename="../interface/mainwindowbase.ui" line="293"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="277"/>
+        <location filename="../interface/mainwindowbase.ui" line="301"/>
         <source>Check for update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="282"/>
+        <location filename="../interface/mainwindowbase.ui" line="306"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="290"/>
+        <location filename="../interface/mainwindowbase.ui" line="314"/>
         <source>About Qt...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="293"/>
+        <location filename="../interface/mainwindowbase.ui" line="317"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="304"/>
+        <location filename="../interface/mainwindowbase.ui" line="328"/>
         <source>Speed limit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="307"/>
+        <location filename="../interface/mainwindowbase.ui" line="331"/>
         <source>Turn on/off speed limit mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="171"/>
+        <location filename="../interface/mainwindowbase.ui" line="336"/>
+        <source>Add multiple urls...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="269"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="355"/>
+        <location filename="../interface/mainwindowbase.cpp" line="434"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="366"/>
+        <location filename="../interface/mainwindowbase.cpp" line="445"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="367"/>
+        <location filename="../interface/mainwindowbase.cpp" line="446"/>
         <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="389"/>
+        <location filename="../interface/mainwindowbase.cpp" line="468"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="370"/>
+        <location filename="../interface/mainwindowbase.cpp" line="449"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="380"/>
+        <location filename="../interface/mainwindowbase.cpp" line="459"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="388"/>
+        <location filename="../interface/mainwindowbase.cpp" line="467"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="392"/>
+        <location filename="../interface/mainwindowbase.cpp" line="471"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -327,14 +335,19 @@ Looks like connection has been dropped. Recommend to re-download.</source>
 <context>
     <name>RedirectPlugin</name>
     <message>
-        <location filename="../plugins/redirectplugin.cpp" line="51"/>
-        <location filename="../plugins/redirectplugin.cpp" line="54"/>
+        <location filename="../plugins/redirectplugin.cpp" line="43"/>
+        <source>Redirect: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/redirectplugin.cpp" line="58"/>
+        <location filename="../plugins/redirectplugin.cpp" line="61"/>
         <source>Error: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/redirectplugin.cpp" line="51"/>
-        <source>url not supported</source>
+        <location filename="../plugins/redirectplugin.cpp" line="58"/>
+        <source>url &quot;%1&quot; not supported</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -666,7 +679,7 @@ Changes:
 <context>
     <name>StreamSource</name>
     <message>
-        <location filename="../plugins/streamsource.cpp" line="356"/>
+        <location filename="../plugins/streamsource.cpp" line="381"/>
         <source>Restore connection limit is reached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -679,7 +692,7 @@ Changes:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../updater/updatechecker.cpp" line="268"/>
+        <location filename="../updater/updatechecker.cpp" line="270"/>
         <source>Failed to parse version information data.</source>
         <translation type="unfinished"></translation>
     </message>
