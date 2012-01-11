@@ -100,7 +100,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="55"/>
+        <location filename="../plugins/downloader.cpp" line="54"/>
         <source>Can&apos;t determine output extension</source>
         <translation type="unfinished"></translation>
     </message>
@@ -176,158 +176,168 @@ Looks like connection has been dropped. Recommend to re-download.</source>
 <context>
     <name>MainWindowBase</name>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="96"/>
+        <location filename="../interface/mainwindowbase.ui" line="105"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="106"/>
+        <location filename="../interface/mainwindowbase.ui" line="115"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="118"/>
+        <location filename="../interface/mainwindowbase.ui" line="127"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="184"/>
+        <location filename="../interface/mainwindowbase.ui" line="193"/>
         <source>Paste url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="193"/>
+        <location filename="../interface/mainwindowbase.ui" line="202"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="202"/>
+        <location filename="../interface/mainwindowbase.ui" line="211"/>
         <source>Remove completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="210"/>
+        <location filename="../interface/mainwindowbase.ui" line="214"/>
+        <source>Ctrl+Alt+Backspace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.ui" line="219"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interface/mainwindowbase.ui" line="222"/>
-        <source>Start all</source>
+        <source>Ctrl+Shift+Backspace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interface/mainwindowbase.ui" line="231"/>
+        <source>Start all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.ui" line="240"/>
         <source>Stop all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="246"/>
+        <location filename="../interface/mainwindowbase.ui" line="255"/>
         <source>Facebook: Like!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="261"/>
+        <location filename="../interface/mainwindowbase.ui" line="270"/>
         <source>Open home website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="266"/>
+        <location filename="../interface/mainwindowbase.ui" line="275"/>
         <source>Preferences...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="277"/>
+        <location filename="../interface/mainwindowbase.ui" line="286"/>
         <source>Auto add from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="285"/>
-        <location filename="../interface/mainwindowbase.ui" line="288"/>
+        <location filename="../interface/mainwindowbase.ui" line="294"/>
+        <location filename="../interface/mainwindowbase.ui" line="297"/>
         <source>Automatically download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="293"/>
+        <location filename="../interface/mainwindowbase.ui" line="302"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="301"/>
+        <location filename="../interface/mainwindowbase.ui" line="310"/>
         <source>Check for update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="306"/>
+        <location filename="../interface/mainwindowbase.ui" line="315"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="314"/>
+        <location filename="../interface/mainwindowbase.ui" line="323"/>
         <source>About Qt...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="317"/>
+        <location filename="../interface/mainwindowbase.ui" line="326"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="328"/>
+        <location filename="../interface/mainwindowbase.ui" line="337"/>
         <source>Speed limit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="331"/>
+        <location filename="../interface/mainwindowbase.ui" line="340"/>
         <source>Turn on/off speed limit mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="336"/>
+        <location filename="../interface/mainwindowbase.ui" line="345"/>
         <source>Add multiple urls...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="269"/>
+        <location filename="../interface/mainwindowbase.cpp" line="278"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="434"/>
+        <location filename="../interface/mainwindowbase.cpp" line="443"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="445"/>
+        <location filename="../interface/mainwindowbase.cpp" line="454"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="446"/>
+        <location filename="../interface/mainwindowbase.cpp" line="455"/>
         <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="468"/>
+        <location filename="../interface/mainwindowbase.cpp" line="477"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="449"/>
+        <location filename="../interface/mainwindowbase.cpp" line="458"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="459"/>
+        <location filename="../interface/mainwindowbase.cpp" line="468"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="467"/>
+        <location filename="../interface/mainwindowbase.cpp" line="476"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="471"/>
+        <location filename="../interface/mainwindowbase.cpp" line="480"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -687,13 +697,36 @@ Changes:
 <context>
     <name>UpdateChecker</name>
     <message>
-        <location filename="../updater/updatechecker.cpp" line="123"/>
+        <location filename="../updater/updatechecker.cpp" line="130"/>
         <source>Can&apos;t install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../updater/updatechecker.cpp" line="270"/>
+        <location filename="../updater/updatechecker.cpp" line="283"/>
         <source>Failed to parse version information data.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../updater/updatechecker.cpp" line="497"/>
+        <source>Exit and install update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../updater/updatechecker.cpp" line="509"/>
+        <source>Download update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../updater/updatechecker.cpp" line="518"/>
+        <source>Cancel downloading</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>UpdateWidget</name>
+    <message>
+        <location filename="../interface/updatewidget.ui" line="14"/>
+        <source>Form</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
