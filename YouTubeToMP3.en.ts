@@ -206,18 +206,8 @@ Looks like connection has been dropped. Recommend to re-download.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="214"/>
-        <source>Ctrl+Alt+Backspace</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../interface/mainwindowbase.ui" line="219"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.ui" line="222"/>
-        <source>Ctrl+Shift+Backspace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -719,14 +709,6 @@ Changes:
     <message>
         <location filename="../updater/updatechecker.cpp" line="518"/>
         <source>Cancel downloading</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>UpdateWidget</name>
-    <message>
-        <location filename="../interface/updatewidget.ui" line="14"/>
-        <source>Form</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
