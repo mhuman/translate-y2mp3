@@ -10,7 +10,7 @@
     </message>
     <message>
         <location filename="../interface/aboutdialog.cpp" line="10"/>
-        <source>Version</source>
+        <source>Version %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -48,22 +48,22 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="135"/>
+        <location filename="../interface/applicationbase.cpp" line="141"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="137"/>
+        <location filename="../interface/applicationbase.cpp" line="143"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="139"/>
+        <location filename="../interface/applicationbase.cpp" line="145"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="166"/>
+        <location filename="../interface/applicationbase.cpp" line="172"/>
         <source>Added %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -71,7 +71,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="168"/>
+        <location filename="../interface/applicationbase.cpp" line="174"/>
         <source>Started %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -79,7 +79,7 @@
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="170"/>
+        <location filename="../interface/applicationbase.cpp" line="176"/>
         <source>Completed %n.</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -88,24 +88,37 @@
     </message>
 </context>
 <context>
+    <name>CentralList</name>
+    <message>
+        <location filename="../qml/CentralList.qml" line="29"/>
+        <source>Drop zone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/CentralList.qml" line="39"/>
+        <source>Drop url here or Paste it from clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Downloader</name>
     <message>
-        <location filename="../plugins/downloader.cpp" line="355"/>
+        <location filename="../plugins/downloader.cpp" line="357"/>
         <source>Can&apos;t add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="231"/>
+        <location filename="../plugins/downloader.cpp" line="233"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="54"/>
+        <location filename="../plugins/downloader.cpp" line="55"/>
         <source>Can&apos;t determine output extension</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="224"/>
+        <location filename="../plugins/downloader.cpp" line="226"/>
         <source>Duration of downloaded file is less (%1 instead of %2)
 Looks like connection has been dropped. Recommend to re-download.</source>
         <translation type="unfinished"></translation>
@@ -136,7 +149,7 @@ Looks like connection has been dropped. Recommend to re-download.</source>
 <context>
     <name>FFMpegWrapper</name>
     <message>
-        <location filename="../plugins/ffmpegwrapper.cpp" line="262"/>
+        <location filename="../plugins/ffmpegwrapper.cpp" line="307"/>
         <source>Download process crashed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -165,11 +178,15 @@ Looks like connection has been dropped. Recommend to re-download.</source>
     </message>
 </context>
 <context>
-    <name>MainModel</name>
+    <name>MainModelBase</name>
     <message>
-        <location filename="mainmodel.cpp" line="18"/>
+        <location filename="../interface/mainmodelbase.cpp" line="607"/>
+        <source>No streams found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainmodelbase.cpp" line="610"/>
         <source>Can&apos;t find compatible format from priority list.</source>
-        <oldsource>Can&apos;t find compatible format form priority list.</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -287,48 +304,71 @@ Looks like connection has been dropped. Recommend to re-download.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="278"/>
+        <location filename="../interface/mainwindowbase.cpp" line="282"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="443"/>
+        <location filename="../interface/mainwindowbase.cpp" line="436"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="454"/>
+        <location filename="../interface/mainwindowbase.cpp" line="447"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="455"/>
+        <location filename="../interface/mainwindowbase.cpp" line="448"/>
         <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="477"/>
+        <location filename="../interface/mainwindowbase.cpp" line="470"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="458"/>
+        <location filename="../interface/mainwindowbase.cpp" line="451"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="468"/>
+        <location filename="../interface/mainwindowbase.cpp" line="461"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="476"/>
+        <location filename="../interface/mainwindowbase.cpp" line="469"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="480"/>
+        <location filename="../interface/mainwindowbase.cpp" line="473"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../interface/settingsbase.cpp" line="208"/>
+        <source>Convert to %1 %2 Kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsbase.cpp" line="213"/>
+        <source>%1 original or %2 Kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsbase.cpp" line="220"/>
+        <source>Original %1; %2 original or %3 Kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsbase.cpp" line="226"/>
+        <source>Original</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -342,19 +382,19 @@ Looks like connection has been dropped. Recommend to re-download.</source>
     <message>
         <location filename="../plugins/redirectplugin.cpp" line="58"/>
         <location filename="../plugins/redirectplugin.cpp" line="61"/>
-        <source>Error: </source>
+        <source>Error: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../plugins/redirectplugin.cpp" line="58"/>
-        <source>url &quot;%1&quot; not supported</source>
+        <source>url &quot;%1&quot; is not supported</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsDialogBase</name>
     <message>
-        <location filename="../interface/settingsdialogbase.cpp" line="20"/>
+        <location filename="../interface/settingsdialogbase.cpp" line="23"/>
         <source>Preferences</source>
         <translation type="unfinished"></translation>
     </message>
@@ -610,68 +650,66 @@ Changes:
     </message>
 </context>
 <context>
-    <name>SettingsOutputPage</name>
+    <name>SettingsMusicOutputPage</name>
     <message>
-        <location filename="settingsoutputpage.ui" line="14"/>
-        <source>Output</source>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="20"/>
+        <source>Music output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="29"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="51"/>
         <source>Output &amp;folder:</source>
-        <oldsource>Output &amp;folder</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="51"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="73"/>
         <source>Choose...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="60"/>
-        <source>Format:</source>
-        <oldsource>Format</oldsource>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="82"/>
+        <source>Keep original stream:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="167"/>
-        <source>&amp;Original</source>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="127"/>
+        <source>Convert others to:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="180"/>
-        <location filename="settingsoutputpage.ui" line="187"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="187"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="248"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="319"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="216"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="335"/>
         <source>Add to iTunes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="250"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="347"/>
         <source>Add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.ui" line="257"/>
-        <source>Artwork:</source>
-        <oldsource>Artwork</oldsource>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="settingsoutputpage.ui" line="264"/>
-        <source>Attach artwork</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="settingsoutputpage.ui" line="225"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="359"/>
         <source>Playlist:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="settingsoutputpage.cpp" line="54"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="386"/>
+        <source>Artwork:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="393"/>
+        <source>Attach artwork</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsmusicoutputpage.cpp" line="40"/>
         <source>Select output folder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -679,8 +717,26 @@ Changes:
 <context>
     <name>StreamSource</name>
     <message>
-        <location filename="../plugins/streamsource.cpp" line="381"/>
+        <location filename="../plugins/streamsource.cpp" line="400"/>
         <source>Restore connection limit is reached.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TagEditor</name>
+    <message>
+        <location filename="../qml/TagEditor.qml" line="8"/>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/TagEditor.qml" line="25"/>
+        <source>Artist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/TagEditor.qml" line="45"/>
+        <source>Album</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -709,6 +765,39 @@ Changes:
     <message>
         <location filename="../updater/updatechecker.cpp" line="518"/>
         <source>Cancel downloading</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>VideoListItem</name>
+    <message>
+        <location filename="../qml/VideoListItem.qml" line="48"/>
+        <source>Downloading %1 of %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/VideoListItem.qml" line="51"/>
+        <source>Waiting...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/VideoListItem.qml" line="55"/>
+        <source>Loading video info...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/VideoListItem.qml" line="184"/>
+        <source>Converting %1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/VideoListItem.qml" line="640"/>
+        <source>Done: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/VideoListItem.qml" line="643"/>
+        <source>Done</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
