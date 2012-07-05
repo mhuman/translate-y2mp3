@@ -48,39 +48,24 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="142"/>
+        <location filename="../interface/applicationbase.cpp" line="251"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="144"/>
+        <location filename="../interface/applicationbase.cpp" line="253"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="146"/>
+        <location filename="../interface/applicationbase.cpp" line="255"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="173"/>
-        <source>Added %n.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="175"/>
-        <source>Started %n.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="177"/>
-        <source>Completed %n.</source>
+        <location filename="../interface/applicationbase.cpp" line="287"/>
+        <source>and %n more...</source>
+        <comment>growl text</comment>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -121,7 +106,7 @@
 <context>
     <name>EditableField</name>
     <message>
-        <location filename="../qml/EditableField.qml" line="48"/>
+        <location filename="../qml/EditableField.qml" line="52"/>
         <source>&lt;empty&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -159,22 +144,27 @@
 <context>
     <name>ItemActionTracker</name>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="72"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="80"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="73"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="81"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="74"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="82"/>
         <source>Stop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/itemactiontracker.cpp" line="75"/>
+        <location filename="../plugins/itemactiontracker.cpp" line="83"/>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../plugins/itemactiontracker.cpp" line="84"/>
         <source>Locate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -182,171 +172,194 @@
 <context>
     <name>MainModelBase</name>
     <message>
-        <location filename="../interface/mainmodelbase.cpp" line="612"/>
+        <location filename="../interface/mainmodelbase.cpp" line="657"/>
         <source>No streams found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainmodelbase.cpp" line="615"/>
+        <location filename="../interface/mainmodelbase.cpp" line="660"/>
         <source>Can&apos;t find compatible format from priority list.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="mainwindow.cpp" line="20"/>
+        <source>&lt;p&gt;Thank you for using %1.&lt;/p&gt;&lt;p&gt;We hope you are pleased with it.&lt;/p&gt;&lt;p&gt;If so, you can share it with others. It will help us to maintain and update our product.&lt;/p&gt;&lt;p&gt;Would you like to know how to do it?&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="23"/>
+        <source>Thank you</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainWindowBase</name>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="102"/>
+        <location filename="../interface/mainwindowbase.ui" line="109"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="112"/>
+        <location filename="../interface/mainwindowbase.ui" line="119"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="124"/>
+        <location filename="../interface/mainwindowbase.ui" line="131"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="190"/>
+        <location filename="../interface/mainwindowbase.ui" line="197"/>
         <source>Paste url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="199"/>
+        <location filename="../interface/mainwindowbase.ui" line="206"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="208"/>
+        <location filename="../interface/mainwindowbase.ui" line="215"/>
         <source>Remove completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="216"/>
+        <location filename="../interface/mainwindowbase.ui" line="223"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="228"/>
+        <location filename="../interface/mainwindowbase.ui" line="235"/>
         <source>Start all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="237"/>
+        <location filename="../interface/mainwindowbase.ui" line="244"/>
         <source>Stop all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="252"/>
+        <location filename="../interface/mainwindowbase.ui" line="259"/>
         <source>Facebook: Like!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="267"/>
+        <location filename="../interface/mainwindowbase.ui" line="274"/>
         <source>Open home website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="272"/>
+        <location filename="../interface/mainwindowbase.ui" line="279"/>
         <source>Preferences...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="283"/>
+        <location filename="../interface/mainwindowbase.ui" line="290"/>
         <source>Auto add from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="291"/>
-        <location filename="../interface/mainwindowbase.ui" line="294"/>
+        <location filename="../interface/mainwindowbase.ui" line="298"/>
+        <location filename="../interface/mainwindowbase.ui" line="301"/>
         <source>Automatically download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="299"/>
+        <location filename="../interface/mainwindowbase.ui" line="306"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="307"/>
+        <location filename="../interface/mainwindowbase.ui" line="314"/>
         <source>Check for update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="312"/>
+        <location filename="../interface/mainwindowbase.ui" line="319"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="320"/>
+        <location filename="../interface/mainwindowbase.ui" line="327"/>
         <source>About Qt...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="323"/>
+        <location filename="../interface/mainwindowbase.ui" line="330"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="334"/>
+        <location filename="../interface/mainwindowbase.ui" line="346"/>
         <source>Speed limit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="337"/>
+        <location filename="../interface/mainwindowbase.ui" line="349"/>
         <source>Turn on/off speed limit mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="342"/>
+        <location filename="../interface/mainwindowbase.ui" line="354"/>
         <source>Add multiple urls...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="284"/>
+        <location filename="../interface/mainwindowbase.cpp" line="298"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="438"/>
+        <location filename="../interface/mainwindowbase.cpp" line="452"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="449"/>
+        <location filename="../interface/mainwindowbase.cpp" line="463"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="450"/>
-        <source>Do you want to &lt;b&gt;download&lt;/b&gt; new version now?</source>
+        <location filename="../interface/mainwindowbase.cpp" line="464"/>
+        <source>New version %1 is available for download.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="453"/>
-        <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.cpp" line="463"/>
-        <source>Exit and install update</source>
+        <location filename="../interface/mainwindowbase.cpp" line="470"/>
+        <source>Do you want to download new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interface/mainwindowbase.cpp" line="471"/>
-        <source>Update is downloaded and ready to install</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/mainwindowbase.cpp" line="472"/>
-        <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
+        <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt; dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interface/mainwindowbase.cpp" line="475"/>
+        <source>Read full version history</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="489"/>
+        <source>Exit and install update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="497"/>
+        <source>Update is downloaded and ready to install</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="498"/>
+        <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="501"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -354,32 +367,32 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="232"/>
+        <location filename="../interface/settingsbase.cpp" line="248"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="234"/>
+        <location filename="../interface/settingsbase.cpp" line="250"/>
         <source>quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="238"/>
+        <location filename="../interface/settingsbase.cpp" line="254"/>
         <source>Convert to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="243"/>
+        <location filename="../interface/settingsbase.cpp" line="259"/>
         <source>%1 original or</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="250"/>
+        <location filename="../interface/settingsbase.cpp" line="266"/>
         <source>Original %1; %2 original or</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="256"/>
+        <location filename="../interface/settingsbase.cpp" line="272"/>
         <source>Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -419,58 +432,53 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="26"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="29"/>
         <source>Simultaneous downloads:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="55"/>
-        <source>Global bandwidth limit:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="74"/>
-        <location filename="../interface/settingsdownloadpage.ui" line="124"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="106"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="173"/>
         <source> KB/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="108"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="137"/>
         <source>Speed limit mode:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="158"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="197"/>
         <source>Preferred format:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="165"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="206"/>
         <source>&amp;Largest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="175"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="213"/>
         <source>Use format &amp;priority list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="194"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="232"/>
         <source>P&amp;riority list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="204"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="242"/>
         <source>&amp;Disabled formats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="275"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="313"/>
         <source>Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsdownloadpage.ui" line="288"/>
+        <location filename="../interface/settingsdownloadpage.ui" line="326"/>
         <source>Down</source>
         <translation type="unfinished"></translation>
     </message>
@@ -516,54 +524,54 @@ Download size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="94"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="97"/>
         <source>Check for update:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="101"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="104"/>
         <source>Every time on startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="108"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="111"/>
         <source>Manual check only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.ui" line="115"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="118"/>
         <source>Remove completed automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="60"/>
-        <location filename="../interface/settingsgeneralpage.cpp" line="66"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="61"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="67"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="61"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="62"/>
         <source>Check now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="64"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="65"/>
         <source>You have the latest version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="65"/>
-        <location filename="../interface/settingsgeneralpage.cpp" line="115"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="66"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="124"/>
         <source>Check again</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="76"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="77"/>
         <source>Checked at %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="78"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="79"/>
         <source>Checked %n days ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -571,7 +579,7 @@ Download size</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="80"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="81"/>
         <source>Checked %n hours ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -579,7 +587,7 @@ Download size</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="82"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="83"/>
         <source>Checked %n minutes ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -587,7 +595,7 @@ Download size</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="84"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="85"/>
         <source>Checked %n seconds ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -595,73 +603,73 @@ Download size</source>
         </translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="91"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="92"/>
         <source>Checking...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="92"/>
-        <location filename="../interface/settingsgeneralpage.cpp" line="106"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="93"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="115"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="95"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="96"/>
         <source>Update available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="96"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="97"/>
         <source>Download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="97"/>
-        <source>You have version %1
-Available version %2</source>
+        <location filename="../interface/settingsgeneralpage.cpp" line="98"/>
+        <source>You have version %1&lt;br/&gt;Available version %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="99"/>
-        <source>
-Download size %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="101"/>
-        <source>
-Download size calculating...</source>
+        <location filename="../interface/settingsgeneralpage.cpp" line="100"/>
+        <source>Download size %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interface/settingsgeneralpage.cpp" line="102"/>
-        <source>
-Changes:
-</source>
+        <source>Download size calculating...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="105"/>
-        <source>Downloading update...</source>
+        <location filename="../interface/settingsgeneralpage.cpp" line="103"/>
+        <source>Changes:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../interface/settingsgeneralpage.cpp" line="108"/>
+        <source>Read full version history</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsgeneralpage.cpp" line="114"/>
+        <source>Downloading update...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsgeneralpage.cpp" line="117"/>
         <source>%1 of %2 (%3%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="111"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="120"/>
         <source>Ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="112"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="121"/>
         <source>Install now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="116"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="125"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -695,44 +703,44 @@ Changes:
     </message>
     <message>
         <location filename="../interface/settingsmusicoutputpage.ui" line="255"/>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="306"/>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="319"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="316"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="329"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="340"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="350"/>
         <source>0 - highest quality
 9 - lowest quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="401"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="411"/>
         <source>quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="430"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="440"/>
         <source>Add to iTunes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="442"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="452"/>
         <source>Add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="454"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="464"/>
         <source>Playlist:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="481"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="491"/>
         <source>Artwork:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsmusicoutputpage.ui" line="488"/>
+        <location filename="../interface/settingsmusicoutputpage.ui" line="498"/>
         <source>Attach artwork</source>
         <translation type="unfinished"></translation>
     </message>
@@ -743,9 +751,37 @@ Changes:
     </message>
 </context>
 <context>
+    <name>SettingsNetworkPage</name>
+    <message>
+        <location filename="../interface/settingsnetworkpage.ui" line="14"/>
+        <source>Network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsnetworkpage.ui" line="29"/>
+        <source>Use Proxy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsnetworkpage.ui" line="88"/>
+        <source>Proxy server requires password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsnetworkpage.ui" line="105"/>
+        <source>Username:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsnetworkpage.ui" line="119"/>
+        <source>Password:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>StreamSource</name>
     <message>
-        <location filename="../plugins/streamsource.cpp" line="400"/>
+        <location filename="../plugins/streamsource.cpp" line="404"/>
         <source>Restore connection limit is reached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -753,17 +789,17 @@ Changes:
 <context>
     <name>TagEditor</name>
     <message>
-        <location filename="../qml/TagEditor.qml" line="8"/>
+        <location filename="../qml/TagEditor.qml" line="10"/>
         <source>Title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/TagEditor.qml" line="25"/>
+        <location filename="../qml/TagEditor.qml" line="28"/>
         <source>Artist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/TagEditor.qml" line="45"/>
+        <location filename="../qml/TagEditor.qml" line="66"/>
         <source>Album</source>
         <translation type="unfinished"></translation>
     </message>
@@ -799,32 +835,32 @@ Changes:
 <context>
     <name>VideoListItem</name>
     <message>
-        <location filename="../qml/VideoListItem.qml" line="48"/>
+        <location filename="../qml/VideoListItem.qml" line="50"/>
         <source>Downloading %1 of %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/VideoListItem.qml" line="51"/>
+        <location filename="../qml/VideoListItem.qml" line="53"/>
         <source>Waiting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/VideoListItem.qml" line="55"/>
+        <location filename="../qml/VideoListItem.qml" line="57"/>
         <source>Loading video info...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/VideoListItem.qml" line="188"/>
+        <location filename="../qml/VideoListItem.qml" line="197"/>
         <source>Converting %1%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/VideoListItem.qml" line="644"/>
+        <location filename="../qml/VideoListItem.qml" line="653"/>
         <source>Done: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/VideoListItem.qml" line="647"/>
+        <location filename="../qml/VideoListItem.qml" line="656"/>
         <source>Done</source>
         <translation type="unfinished"></translation>
     </message>
