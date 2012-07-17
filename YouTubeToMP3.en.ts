@@ -550,7 +550,7 @@ Download size</source>
     </message>
     <message>
         <location filename="../interface/settingsgeneralpage.ui" line="137"/>
-        <source>Restart required to apply language change</source>
+        <source>Restart program to apply language change</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
