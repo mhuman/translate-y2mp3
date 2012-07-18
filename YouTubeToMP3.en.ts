@@ -98,7 +98,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../plugins/downloader.cpp" line="408"/>
+        <location filename="../plugins/downloader.cpp" line="409"/>
         <source>Can&apos;t add to iTunes playlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -367,32 +367,32 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="270"/>
+        <location filename="../interface/settingsbase.cpp" line="274"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="272"/>
+        <location filename="../interface/settingsbase.cpp" line="276"/>
         <source>quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="276"/>
+        <location filename="../interface/settingsbase.cpp" line="280"/>
         <source>Convert to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="281"/>
+        <location filename="../interface/settingsbase.cpp" line="285"/>
         <source>%1 original or</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="288"/>
+        <location filename="../interface/settingsbase.cpp" line="292"/>
         <source>Original %1; %2 original or</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="294"/>
+        <location filename="../interface/settingsbase.cpp" line="298"/>
         <source>Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -818,6 +818,11 @@ Download size</source>
     <message>
         <location filename="../interface/settingstagspage.ui" line="74"/>
         <source>Write tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingstagspage.ui" line="81"/>
+        <source>Album artist:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
