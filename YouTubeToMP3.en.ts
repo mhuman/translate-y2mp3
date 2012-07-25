@@ -48,22 +48,22 @@
 <context>
     <name>ApplicationBase</name>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="255"/>
+        <location filename="../interface/applicationbase.cpp" line="265"/>
         <source>Added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="257"/>
+        <location filename="../interface/applicationbase.cpp" line="267"/>
         <source>Started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/applicationbase.cpp" line="259"/>
+        <location filename="../interface/applicationbase.cpp" line="269"/>
         <source>Completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/applicationbase.cpp" line="291"/>
+        <location filename="../interface/applicationbase.cpp" line="301"/>
         <source>and %n more...</source>
         <comment>growl text</comment>
         <translation type="unfinished">
@@ -83,6 +83,32 @@
         <location filename="../qml/CentralList.qml" line="39"/>
         <source>Drop url here or Paste it from clipboard</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CompleteActionDialog</name>
+    <message>
+        <location filename="../interface/completeactiondialog.ui" line="14"/>
+        <source>Warning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../interface/completeactiondialog.cpp" line="40"/>
+        <source>Program will be closed in %n seconds.</source>
+        <comment>close action</comment>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../interface/completeactiondialog.cpp" line="42"/>
+        <source>Computer will be put into sleep mode in %n seconds.</source>
+        <comment>sleep action</comment>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -193,173 +219,194 @@
 <context>
     <name>MainWindowBase</name>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="109"/>
+        <location filename="../interface/mainwindowbase.ui" line="115"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="119"/>
+        <location filename="../interface/mainwindowbase.ui" line="125"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="131"/>
+        <location filename="../interface/mainwindowbase.ui" line="137"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="197"/>
+        <location filename="../interface/mainwindowbase.ui" line="203"/>
         <source>Paste url</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="206"/>
+        <location filename="../interface/mainwindowbase.ui" line="212"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="215"/>
+        <location filename="../interface/mainwindowbase.ui" line="221"/>
         <source>Remove completed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="223"/>
+        <location filename="../interface/mainwindowbase.ui" line="229"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="235"/>
+        <location filename="../interface/mainwindowbase.ui" line="241"/>
         <source>Start all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="244"/>
+        <location filename="../interface/mainwindowbase.ui" line="250"/>
         <source>Stop all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="259"/>
+        <location filename="../interface/mainwindowbase.ui" line="265"/>
         <source>Facebook: Like!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="274"/>
+        <location filename="../interface/mainwindowbase.ui" line="280"/>
         <source>Open home website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="279"/>
+        <location filename="../interface/mainwindowbase.ui" line="285"/>
         <source>Preferences...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="290"/>
+        <location filename="../interface/mainwindowbase.ui" line="296"/>
         <source>Auto add from clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="298"/>
-        <location filename="../interface/mainwindowbase.ui" line="301"/>
+        <location filename="../interface/mainwindowbase.ui" line="304"/>
+        <location filename="../interface/mainwindowbase.ui" line="307"/>
         <source>Automatically download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="306"/>
+        <location filename="../interface/mainwindowbase.ui" line="312"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="314"/>
+        <location filename="../interface/mainwindowbase.ui" line="320"/>
         <source>Check for update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="319"/>
+        <location filename="../interface/mainwindowbase.ui" line="325"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="327"/>
+        <location filename="../interface/mainwindowbase.ui" line="333"/>
         <source>About Qt...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="330"/>
+        <location filename="../interface/mainwindowbase.ui" line="336"/>
         <source>About Qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="346"/>
+        <location filename="../interface/mainwindowbase.ui" line="352"/>
         <source>Speed limit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="349"/>
+        <location filename="../interface/mainwindowbase.ui" line="355"/>
         <source>Turn on/off speed limit mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.ui" line="354"/>
+        <location filename="../interface/mainwindowbase.ui" line="360"/>
         <source>Add multiple urls...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="298"/>
+        <location filename="../interface/mainwindowbase.ui" line="374"/>
+        <source>Do nothing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.ui" line="382"/>
+        <location filename="../interface/mainwindowbase.ui" line="385"/>
+        <source>Put computer into sleep</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.ui" line="393"/>
+        <source>Quit program</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.ui" line="408"/>
+        <source>Complete action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/mainwindowbase.cpp" line="393"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="452"/>
+        <location filename="../interface/mainwindowbase.cpp" line="547"/>
         <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="463"/>
+        <location filename="../interface/mainwindowbase.cpp" line="558"/>
         <source>New version is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="464"/>
+        <location filename="../interface/mainwindowbase.cpp" line="559"/>
         <source>New version %1 is available for download.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="470"/>
+        <location filename="../interface/mainwindowbase.cpp" line="565"/>
         <source>Do you want to download new version now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="471"/>
+        <location filename="../interface/mainwindowbase.cpp" line="566"/>
         <source>You can download it later in &lt;i&gt;Preferences...&lt;/i&gt; dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="475"/>
+        <location filename="../interface/mainwindowbase.cpp" line="570"/>
         <source>Read full version history</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="489"/>
+        <location filename="../interface/mainwindowbase.cpp" line="584"/>
         <source>Exit and install update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="497"/>
+        <location filename="../interface/mainwindowbase.cpp" line="592"/>
         <source>Update is downloaded and ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="498"/>
+        <location filename="../interface/mainwindowbase.cpp" line="593"/>
         <source>Do you want to &lt;b&gt;exit&lt;/b&gt; program and &lt;b&gt;install&lt;/b&gt; update now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="501"/>
+        <location filename="../interface/mainwindowbase.cpp" line="596"/>
         <source>You can install update later in &lt;i&gt;Preferences...&lt;/i&gt;&amp;nbsp;dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/mainwindowbase.cpp" line="753"/>
+        <location filename="../interface/mainwindowbase.cpp" line="865"/>
         <source>Do you want to stop all?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -367,32 +414,32 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="274"/>
+        <location filename="../interface/settingsbase.cpp" line="279"/>
         <source>Kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="276"/>
+        <location filename="../interface/settingsbase.cpp" line="281"/>
         <source>quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="280"/>
+        <location filename="../interface/settingsbase.cpp" line="285"/>
         <source>Convert to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="285"/>
+        <location filename="../interface/settingsbase.cpp" line="290"/>
         <source>%1 original or</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="292"/>
+        <location filename="../interface/settingsbase.cpp" line="297"/>
         <source>Original %1; %2 original or</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsbase.cpp" line="298"/>
+        <location filename="../interface/settingsbase.cpp" line="303"/>
         <source>Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -554,39 +601,59 @@ Download size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="40"/>
+        <location filename="../interface/settingsgeneralpage.ui" line="152"/>
+        <source>When all are finished:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsgeneralpage.ui" line="160"/>
+        <source>Do nothing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsgeneralpage.ui" line="165"/>
+        <source>Quit program</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsgeneralpage.ui" line="170"/>
+        <source>Put computer into sleep</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsgeneralpage.cpp" line="41"/>
         <source>Automatic</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="103"/>
-        <location filename="../interface/settingsgeneralpage.cpp" line="109"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="107"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="113"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="104"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="108"/>
         <source>Check now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="107"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="111"/>
         <source>You have the latest version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="108"/>
-        <location filename="../interface/settingsgeneralpage.cpp" line="166"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="112"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="170"/>
         <source>Check again</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="119"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="123"/>
         <source>Checked at %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="121"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="125"/>
         <source>Checked %n days ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -594,7 +661,7 @@ Download size</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="123"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="127"/>
         <source>Checked %n hours ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -602,7 +669,7 @@ Download size</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="125"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="129"/>
         <source>Checked %n minutes ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -610,7 +677,7 @@ Download size</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../interface/settingsgeneralpage.cpp" line="127"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="131"/>
         <source>Checked %n seconds ago</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -618,73 +685,73 @@ Download size</source>
         </translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="134"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="138"/>
         <source>Checking...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="135"/>
-        <location filename="../interface/settingsgeneralpage.cpp" line="157"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="139"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="161"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="138"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="142"/>
         <source>Update available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="139"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="143"/>
         <source>Download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="140"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="144"/>
         <source>You have version %1&lt;br/&gt;Available version %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="142"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="146"/>
         <source>Download size %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="144"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="148"/>
         <source>Download size calculating...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="145"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="149"/>
         <source>Changes:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="150"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="154"/>
         <source>Read full version history</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="156"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="160"/>
         <source>Downloading update...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="159"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="163"/>
         <source>%1 of %2 (%3%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="162"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="166"/>
         <source>Ready to install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="163"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="167"/>
         <source>Install now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../interface/settingsgeneralpage.cpp" line="167"/>
+        <location filename="../interface/settingsgeneralpage.cpp" line="171"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
