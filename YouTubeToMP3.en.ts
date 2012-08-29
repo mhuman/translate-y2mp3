@@ -130,14 +130,6 @@
     </message>
 </context>
 <context>
-    <name>EditStyleSheetDialog</name>
-    <message>
-        <location filename="../interface/editstylesheetdialog.ui" line="14"/>
-        <source>Dialog</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>EditableField</name>
     <message>
         <location filename="../qml/EditableField.qml" line="52"/>
@@ -489,6 +481,11 @@
     <message>
         <location filename="../interface/settingsdownloadpage.ui" line="29"/>
         <source>Simultaneous downloads:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../interface/settingsdownloadpage.ui" line="67"/>
+        <source>Global bandwidth limit:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
